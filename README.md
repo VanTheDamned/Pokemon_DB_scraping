@@ -1,12 +1,12 @@
 # Pokémon Data Scraping and SQL Server Loading
-This project demonstrates how to scrape Pokémon data from a website using python, save it as a CSV file, and then load it into a SQL Server database. 
+This activity demonstrates how to scrape Pokémon data from a website using python, save it as a CSV file, and then load it into a SQL Server database. 
 
 ## Scraping Pokémon Data:
 Using Python and libraries like requests, pyodbc and pandas dataframe to scrape Pokémon information from https://pokemondb.net/pokedex/all.
 The scraped data includes attributes like Pokémon number, name, type, total stats, HP, attack, defense, special attack, special defense, and speed.
 
 ## Saving Data as CSV:
-After scraping, Saving the Pokémon data into a CSV file (pokemon_data.csv). The CSV format allows easy storage and sharing of tabular data.
+After scraping, saving the Pokémon data into a CSV file (pokemon_data.csv). The CSV format allows easy storage and sharing of tabular data.
 
 ## Loading Data into SQL Server:
 Establish a connection to a SQL Server database using pyodbc.
