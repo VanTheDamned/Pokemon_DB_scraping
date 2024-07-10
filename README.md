@@ -12,7 +12,7 @@ After scraping, we save the Pokémon data into a CSV file (pokemon_data.csv). Th
 We establish a connection to a SQL Server database using pyodbc.
 The script reads the CSV file and inserts the data into a table named pokemon_masterlist. The table schema includes columns for Pokémon attributes (e.g., Number, Name, Type, Total, HP, etc.).
 
-Prerequisites
+Prerequisites:
 Python 3.x
 Libraries: requests,pandas, pyodbc
 SQL Server (local or remote)
