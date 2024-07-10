@@ -18,3 +18,4 @@ Libraries: requests,pandas, pyodbc
 SQL Server (local or remote)
 
 
+![image](https://github.com/VanTheDamned/Pokemon_DB_scraping/assets/159636445/a9b62561-4bac-4415-92ca-a9cda09b4b36)
