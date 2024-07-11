@@ -9,7 +9,7 @@ The scraped data includes attributes like Pokémon number, name, type, total sta
 After scraping, saving the Pokémon data into a CSV file (pokemon_data.csv). The CSV format allows easy storage and sharing of tabular data.
 
 ## Loading Data into SQL Server:
-Establish a connection to a SQL Server database using pyodbc.
+Establishing a connection to a SQL Server database using pyodbc.
 The script reads the CSV file and inserts the data into a table named pokemon_masterlist. The table schema includes columns for Pokémon attributes (e.g., Number, Name, Type, Total, HP, etc.).
 
 Prerequisites:
